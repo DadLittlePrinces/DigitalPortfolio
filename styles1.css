@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #00FFFF;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+    text-align: center;
+}
+
+img {
+    max-width: 150%;
+    max-height: 150%;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    margin: 0;
+}
